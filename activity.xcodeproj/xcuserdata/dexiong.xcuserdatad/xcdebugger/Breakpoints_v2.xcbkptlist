@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E5865FA9-9F7D-44DF-A88D-5DD047CD2A5B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F07CF53-256D-4208-B4E2-49E653585062"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiveActivity/LiveActivity.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getTimeline(in:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E82873A3-847E-4CDA-AE93-B8AE2FEDA723"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "activity/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "sceneDidEnterBackground(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E82873A3-847E-4CDA-AE93-B8AE2FEDA723 - bd543cd628411448"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in activity.SceneDelegate.sceneDidEnterBackground(__C.UIScene) -&gt; ()"
+                  moduleName = "activity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dexiong/Desktop/activity/activity/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "799">
+               </Location>
+               <Location
+                  uuid = "E82873A3-847E-4CDA-AE93-B8AE2FEDA723 - 57e60624cc836d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in activity.SceneDelegate.sceneDidEnterBackground(__C.UIScene) -&gt; ()"
+                  moduleName = "activity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dexiong/Desktop/activity/activity/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "E82873A3-847E-4CDA-AE93-B8AE2FEDA723 - 61c0eb0bd1b85027"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in activity.SceneDelegate.sceneDidEnterBackground(__C.UIScene) -&gt; ()"
+                  moduleName = "activity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dexiong/Desktop/activity/activity/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  uuid = "E82873A3-847E-4CDA-AE93-B8AE2FEDA723 - 61c0eb0bd1b85046"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in activity.SceneDelegate.sceneDidEnterBackground(__C.UIScene) -&gt; ()"
+                  moduleName = "activity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dexiong/Desktop/activity/activity/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "99">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

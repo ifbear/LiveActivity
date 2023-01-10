@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ActivityKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -45,8 +46,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called as the scene transitions from the foreground to the background.
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
+        
+        Task {
+            let state = LiveActivityAttributes.ContentState(value: 2)
+            guard let activityId = UserDefaults.standard.string(forKey: "activity_key"),
+            let activity = Activity<LiveActivityAttributes>.activities.first(where: { $0.id == activityId }) else { return }
+            await activity.end()
+        }
     }
 
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        print(URLContexts)
+    }
 
 }
 
